@@ -1,0 +1,12 @@
+.title{
+    display: grid;
+    height:100px;
+    background-color: aqua;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: space-between;
+}
