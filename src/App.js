@@ -8,19 +8,18 @@ import ComputerSection from './components/ComputerSection/ComputerSection';
 import Accessories from './components/Accessories/Accessories';
 import Register from './components/Auth/Register'
 import Login from './components/Auth/Login'
+import {BrowserRouter} from 'react-router-dom'
+
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
         <Header/>
         <Navbar/>
-        {/* <MobileSection/>
-        <ComputerSection/>
-        <Accessories/> */}
-
-        <Login/>
-        <Footer/>
         
+        <Footer/>
+        </BrowserRouter>
     </div>
   );
 }

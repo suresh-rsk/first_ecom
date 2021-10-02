@@ -5,17 +5,21 @@
 
 .navbar {
     width: 100%;
-    background-color: #555;
+    background:blanchedalmond;
     overflow: auto;
+    color: black bold;
   }
   
  
-  .navbar span {
+  .navbar h2 {
     float: left;
-    padding: 12px;
+    padding: 10px;
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 20%; 
+    width: 15%; 
     text-align: center; 
+    height: 10px;
   }
+
+  

@@ -4,7 +4,7 @@ const Header = ()=>{
     return(
         <div>
             <div className="title"><h1>
-                New-Comm.Com
+                E Commerce Website
             </h1></div>
             
         </div>
