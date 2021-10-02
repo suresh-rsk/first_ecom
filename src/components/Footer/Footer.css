@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    flex-wrap: row;
+    background: chocolate;
+    height: auto;
+}
+
+.columns{
+    width: 20%;
+    text-overflow: wrap;
+}
+
+.icons{
+   
+    width:20px;
+}
+
+.bottom{
+    height:auto;
+    background: coral;
+    text-align: center;
+}

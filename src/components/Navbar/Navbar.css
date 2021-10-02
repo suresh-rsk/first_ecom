@@ -1,0 +1,21 @@
+.navs{
+    height: auto;
+    background: cadetblue;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+ 
+  .navbar span {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 20%; 
+    text-align: center; 
+  }

@@ -1,12 +1,8 @@
 .title{
     display: grid;
     height:100px;
-    background-color: aqua;
+    background: radial-gradient(steelblue, white,violet);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.navbar{
-    display: flex;
-    align-items: space-between;
-}

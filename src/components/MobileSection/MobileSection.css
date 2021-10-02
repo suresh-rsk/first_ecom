@@ -1,0 +1,15 @@
+#cardsView {
+    display: flex;
+    flex-wrap: row;
+    padding-right: 10px;
+    margin: 2rem;
+    
+}
+
+.heading{
+    background: linear-gradient(skyblue,white,steelblue);
+}
+
+.main{
+    background: maroon;
+}
