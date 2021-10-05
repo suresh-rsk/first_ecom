@@ -1,4 +1,4 @@
-.navs{
+/* .navs{
     height: auto;
     background: cadetblue;
 }
@@ -8,18 +8,57 @@
     background:blanchedalmond;
     overflow: auto;
     color: black bold;
+    height: 3rem;
+    text-align:top;
   }
   
  
   .navbar h2 {
     float: left;
     padding: 10px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     color: white;
     text-decoration: none;
     font-size: 17px;
     width: 15%; 
     text-align: center; 
-    height: 10px;
-  }
+    
+  } */
+
+#nav {
+  width:900px;
+  margin:0 auto;
+  list-style:none;
+  
+ 
+}
+
+#nav li {
+  float:left;
+  border-radius: 13px;
+  background: linear-gradient(315deg, #7180c7, #8798ec);
+  box-shadow:  -6px -6px 12px #6b79bc,
+             6px 6px 12px #91a3fe;
+  width: 140px;
+  height: 1.5rem;
+  margin: 1rem;
+
+}
+
+#nav a {
+  display:block;
+  text-align:center;
+  width:150px; /* fixed width */
+  text-decoration:none; 
+  color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar{
+  width:100%;
+  background: darkgray;
+  height: 3rem;
+}
 
   

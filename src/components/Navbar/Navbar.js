@@ -9,20 +9,23 @@ import {Link} from 'react-router-dom'
 
 const Navbar=()=>{
     return(
-        <div>
-        <nav className="navbar">
-           <h2><Link to='/'>mobiles</Link></h2> 
-           <h2><Link to='/computer'>computers</Link></h2>
-           <h2><Link to='accessories'>accessories</Link></h2> 
-           <h2><Link to='/login'>Login</Link></h2>
-           <h2><Link to='/register'>Register</Link></h2>
-        </nav>
+        <div id="navbar">
+        <ul id="nav">
+           <li><Link to='/'>Mobiles</Link></li> 
+           <li><Link to='/computer'>Computers</Link></li>
+           <li><Link to='accessories'>Accessories</Link></li> 
+           <li><Link to='/login'>Login</Link></li>
+           <li><Link to='/register'>Register</Link></li><br/>
+           
+        </ul>
         <Route path='/' exact component={MobileSection} />
         <Route path='/computer' exact component={ComputerSection} />
         <Route path='/accessories' exact component={Accessories} />
         <Route path='/login' exact component={Login} />
         <Route path='/register' exact component={Register} />
+        
         </div>
+        
     )
 };
 

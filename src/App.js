@@ -9,6 +9,7 @@ import Accessories from './components/Accessories/Accessories';
 import Register from './components/Auth/Register'
 import Login from './components/Auth/Login'
 import {BrowserRouter} from 'react-router-dom'
+import MainSection from './components/MainSection/MainSection';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Header/>
         <Navbar/>
         
-        <Footer/>
+        
         </BrowserRouter>
     </div>
   );

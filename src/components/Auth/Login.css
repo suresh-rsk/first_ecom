@@ -1,3 +1,23 @@
-.login, form{
-    background: mediumaquamarine;
+.login{
+    width:25%;
+    height: min-content;
+    display: flex;
+    margin-left:35%;
+    margin-top: 10rem;
+   
+    align-content: center;
+
+    border-radius: 13px;
+    background: linear-gradient(315deg, #96bdb5, #b3e1d7);
+    box-shadow:  -6px -6px 12px #8eb3ab,
+                 6px 6px 12px #c0f2e7;
+}
+
+.form{
+    margin-left: 15%;
+}
+
+.mains{
+    background-color: rgb(125, 167, 185);
+    height: 30rem;
 }

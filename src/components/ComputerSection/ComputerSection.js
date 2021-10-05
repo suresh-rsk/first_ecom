@@ -1,4 +1,4 @@
-import Items from '../Items'
+import Computers from '../Computers'
 import Cards from '../Cards/Cards'
 
 
@@ -10,21 +10,21 @@ const ComputerSection = ()=>{
                 <h2>Latest Laptops</h2>
             </div>
             <div id="cardsView">
-                {Items.map(i=><Cards name={i}/>)}
+                {Computers.map(i=><Cards name={i}/>)}
             </div>
 
             <div className="heading">
                 <h2>Gaming Laptops</h2>
             </div>
             <div id="cardsView">
-                {Items.map(i=><Cards name={i}/>)}
+                {Computers.map(i=><Cards name={i}/>)}
             </div>
 
             <div className="heading">
                 <h2>Desktop PCs</h2>
             </div>
             <div id="cardsView">
-                {Items.map(i=><Cards name={i}/>)}
+                {Computers.map(i=><Cards name={i}/>)}
             </div>
         
        </div>

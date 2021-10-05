@@ -7,9 +7,13 @@
 }
 
 .heading{
+    margin-top: 1rem;
     background: linear-gradient(skyblue,white,steelblue);
+    justify-content: center;
 }
 
 .main{
-    background: maroon;
+    background: rgb(108, 156, 196);
+    margin-top:2.5rem;
+    height:auto;
 }

@@ -2,6 +2,7 @@ import {useState} from 'react';
 import Register from '../Auth/Register'
 import {Route} from 'react-router'
 import {Link} from 'react-router-dom'
+import './Login.css'
 
 const Login =()=>{
 
@@ -20,12 +21,13 @@ const Login =()=>{
 
     const onChangeHandler=(event)=>{
        
-        setValue({...getValue,[event.target.mailID]:event.target.value})
+        setValue({...getValue,[event.target.name]:event.target.value})
     }
 
    
 
     return(
+        <div className="full">
         <div className="login">
             <form className ="form" name="Login">
                 <h2>Login to your Account</h2>
@@ -35,6 +37,7 @@ const Login =()=>{
                 <p>New user? <Link to='/Register'>Register here</Link></p>
             </form>
             <Route path="/register" exact component={Register}/>
+        </div>
         </div>
     )
 

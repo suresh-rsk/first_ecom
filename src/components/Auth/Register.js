@@ -20,7 +20,7 @@ const Register =()=>{
 
     const onChangeHandler=(event)=>{
        
-        setValue({...getValue,[event.target.mailID]:event.target.value})
+        setValue({...getValue,[event.target.name]:event.target.value})
     }
 
     return(

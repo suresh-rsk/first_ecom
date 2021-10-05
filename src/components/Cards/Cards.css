@@ -1,9 +1,12 @@
 .card{
-    margin: 1rem;
-    width: 150px;
-    height: auto;
-    align-content: center;
-    background: darkcyan;   
+    border-radius: 13px;
+background: #a7d2c9;
+box-shadow:  6px 6px 12px #8eb3ab,
+             -6px -6px 12px #c0f2e7;
+    margin: 30px;
+    padding: 5px;
+;
+      
 }
 
 .cardImage img{

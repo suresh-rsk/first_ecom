@@ -1,4 +1,4 @@
-import Items from '../Items'
+import Mobiles from '../Mobiles'
 import Cards from '../Cards/Cards'
 import './MobileSection.css'
 
@@ -10,21 +10,21 @@ const MobileSection = ()=>{
                 <h2>Latest Mobiles</h2>
             </div>
             <div id="cardsView">
-                {Items.map(i=><Cards name={i}/>)}
+                {Mobiles.map(i=><Cards name={i}/>)}
             </div>
 
             <div className="heading">
                 <h2>Top Selling Mobiles</h2>
             </div>
             <div id="cardsView">
-                {Items.map(i=><Cards name={i}/>)}
+                {Mobiles.map(i=><Cards name={i}/>)}
             </div>
 
             <div className="heading">
                 <h2>Premium mobiles</h2>
             </div>
             <div id="cardsView">
-                {Items.map(i=><Cards name={i}/>)}
+                {Mobiles.map(i=><Cards name={i}/>)}
             </div>
         
        </div>

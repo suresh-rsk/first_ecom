@@ -1,0 +1,40 @@
+const Items = [
+    {
+        brand:"nokia",
+        model:"x2-02",
+        price:"3400",
+        img:"./images/lap.jpg"
+    },
+    {
+        brand:"samsung",
+        model:"champ",
+        price:"4000",
+        img:"./images/lap.jpg"
+    },
+    {
+        brand:"sony",
+        model:"ericson",
+        price:"5000",
+        img:"./images/lap.jpg"
+    },
+    {
+        brand:"nokia",
+        model:"c1-01",
+        price:"3200",
+        img:"./images/lap.jpg"
+    },
+    {
+        brand:"moto",
+        model:"d45",
+        price:"4500",
+        img:"./images/lap.jpg"
+    },
+    {
+        brand:"nokia",
+        model:"xpress",
+        price:"5000",
+        img:"./images/lap.jpg"
+    }
+]
+
+export default Items;
