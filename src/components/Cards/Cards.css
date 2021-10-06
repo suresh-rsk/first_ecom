@@ -5,8 +5,13 @@ box-shadow:  6px 6px 12px #8eb3ab,
              -6px -6px 12px #c0f2e7;
     margin: 30px;
     padding: 5px;
-;
-      
+    
+     
+}
+
+.card:hover{
+    background: darkblue;
+    color: white;
 }
 
 .cardImage img{

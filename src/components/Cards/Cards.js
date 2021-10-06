@@ -1,11 +1,14 @@
 import './Cards.css'
+import ModalBox from '../ModalBox/ModaBox'
 
 
 const Cards=({name})=>{
+    
+
        
     return(
 
-        <div className="card">
+        <div className="card" >
             <div className="cardImage">
                 <img src={name.img}/>
             </div><br/>

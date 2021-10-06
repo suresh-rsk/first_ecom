@@ -3,10 +3,10 @@
 const MainSection =()=>{
 
     return(
-        <div className="mainsection"></div>
+        <div className="mainsection">Hhghjhjbhjkj</div> 
     )
 
 
 }
-
+ 
 export default MainSection();

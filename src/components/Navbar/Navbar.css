@@ -61,4 +61,9 @@
   height: 3rem;
 }
 
+#nav li:hover{
+  background: darkblue;
+  color: white;
+}
+
   
