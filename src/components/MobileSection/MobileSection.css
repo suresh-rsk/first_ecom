@@ -3,7 +3,11 @@
     flex-wrap: row;
     padding-right: 10px;
     margin: 2rem;
+    overflow: scroll;
+    overflow:auto;
+    white-space: nowrap;
     
+
 }
 
 .heading{

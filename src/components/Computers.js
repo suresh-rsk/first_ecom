@@ -1,39 +1,39 @@
 const Items = [
     {
-        brand:"nokia",
-        model:"x2-02",
-        price:"3400",
-        img:"./images/lap.jpg"
+        brand:"sony",
+        model:"vaio",
+        price:"34000",
+        img:"./images/vaio.png"
     },
     {
         brand:"samsung",
         model:"champ",
-        price:"4000",
-        img:"./images/lap.jpg"
+        price:"40000",
+        img:"./images/samsung-lap.png"
     },
     {
-        brand:"sony",
-        model:"ericson",
-        price:"5000",
-        img:"./images/lap.jpg"
+        brand:"dell",
+        model:"vostro",
+        price:"50000",
+        img:"./images/dell.png"
     },
     {
-        brand:"nokia",
-        model:"c1-01",
-        price:"3200",
-        img:"./images/lap.jpg"
+        brand:"lenovo",
+        model:"thinkpad",
+        price:"32000",
+        img:"./images/thinkpad.png"
     },
     {
-        brand:"moto",
-        model:"d45",
-        price:"4500",
-        img:"./images/lap.jpg"
+        brand:"acer",
+        model:"p245",
+        price:"45000",
+        img:"./images/acer.png"
     },
     {
-        brand:"nokia",
-        model:"xpress",
-        price:"5000",
-        img:"./images/lap.jpg"
+        brand:"lenovo",
+        model:"ideapad",
+        price:"50000",
+        img:"./images/ideapad.png"
     }
 ]
 

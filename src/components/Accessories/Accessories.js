@@ -1,5 +1,7 @@
 import Accessory from '../Accessories'
 import Cards from '../Cards/Cards'
+import Modal from 'react-modal'
+
 
 
 const Accessories = ()=>{

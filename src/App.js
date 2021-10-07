@@ -10,6 +10,7 @@ import Register from './components/Auth/Register'
 import Login from './components/Auth/Login'
 import {BrowserRouter} from 'react-router-dom'
 import MainSection from './components/MainSection/MainSection';
+import ModalBox from './components/ModalBox/ModalBox';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         
         
         </BrowserRouter>
+        
     </div>
   );
 }

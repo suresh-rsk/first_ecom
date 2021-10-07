@@ -1,11 +1,12 @@
 .card{
     border-radius: 13px;
-background: #a7d2c9;
-box-shadow:  6px 6px 12px #8eb3ab,
+    background: #a7d2c9;
+    box-shadow:  6px 6px 12px #8eb3ab,
              -6px -6px 12px #c0f2e7;
     margin: 30px;
     padding: 5px;
-    
+    height: 250px;
+    width: 200px;
      
 }
 
@@ -14,9 +15,12 @@ box-shadow:  6px 6px 12px #8eb3ab,
     color: white;
 }
 
-.cardImage img{
-    padding: 5%;
-    width: 90%;
+.cardImage{
+    height: 70%;
+}
+
+img{
+    height: 100%;
 }
 
 .cardText{
@@ -24,7 +28,43 @@ box-shadow:  6px 6px 12px #8eb3ab,
     font-size: 1rem;
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: auto;
-    
+    height: 10%;
+    line-height: 0.1;
 
 }
+
+.modalimage{
+    width: 400px;
+    float: right;
+}
+
+
+.modaltext{
+    width:45%;
+    float: right;
+}
+
+.buy{
+    border-radius: 68px;
+    background: linear-gradient(315deg, #8ad44d, #a4fb5c);
+    box-shadow:  -6px -6px 12px #507a2d,
+             6px 6px 12px #e2ff7f;
+    height: 50px;
+    width: 100px;
+}
+
+.cart{
+    border-radius: 68px;
+    background: linear-gradient(315deg, #e6bb60, #ffdf72);
+    box-shadow:  -6px -6px 12px #856c38,
+             6px 6px 12px #ffff9e;
+    margin-left: 40px;
+    height: 50px;
+    width: 100px;
+}
+
+.close{
+    font-size: 2rem;
+    float:right;
+}
+

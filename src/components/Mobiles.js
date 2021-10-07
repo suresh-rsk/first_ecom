@@ -3,37 +3,37 @@ const Items = [
         brand:"nokia",
         model:"x2-02",
         price:"3400",
-        img:"./images/img1.jpg"
+        img:"./images/x2.png"
     },
     {
         brand:"samsung",
         model:"champ",
         price:"4000",
-        img:"./images/img1.jpg"
+        img:"./images/champ.png"
     },
     {
         brand:"sony",
         model:"ericson",
         price:"5000",
-        img:"./images/img1.jpg"
+        img:"./images/ericson.png"
     },
     {
         brand:"nokia",
         model:"c1-01",
         price:"3200",
-        img:"./images/img1.jpg"
+        img:"./images/c1.png"
     },
     {
         brand:"moto",
         model:"d45",
         price:"4500",
-        img:"./images/img1.jpg"
+        img:"./images/moto.png"
     },
     {
         brand:"nokia",
         model:"xpress",
         price:"5000",
-        img:"./images/img1.jpg"
+        img:"./images/xpress.png"
     }
 ]
 
